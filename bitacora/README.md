@@ -362,7 +362,40 @@ g++ -std=c++11 -Wall -Wextra -pedantic -o bitacora main.cpp bitacora.cpp
 ```cpp
 if (nuevo.nombre.empty() || nuevo.emocion == 255 || nuevo.felicidad == 255 ||
     nuevo.energia == 255 || nuevo.horas_sueno == 255 || nuevo.aguacate == 255) {
-    cout << "ERROR: faltan parámetros obligatorios\n";
+    cout << "ERROR: faltan parámet/******************************** 
+*Fecha: 2 de febrero 2026       *
+*Autor: Santiago Camargo        *
+*Tema: Taller 0/ Bitacora       *
+*Estructuras de datos           *
+********************************/
+
+# Taller 0 — Bitácora Andoriana
+
+Asignatura: Estructuras de Datos
+Lenguaje: C++11
+Entorno: Linux (Ubuntu)
+Modalidad: CLI (sin menús, todo por parámetros)
+
+---
+
+## Compilación
+
+```bash
+g++ -std=c++11 -Wall -Wextra -pedantic -o bitacora main.cpp bitacora.cpp
+```
+
+Para usar con gdb:
+```bash
+g++ -std=c++11 -g -o bitacora main.cpp bitacora.cpp
+```
+
+---
+
+## Comandos Disponibles
+
+### 1. Inicializar BD
+```bash
+./bitacora init bitacora.bdros obligatorios\n";
     return 1;
 }
 ```
