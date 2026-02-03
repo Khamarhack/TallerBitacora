@@ -67,20 +67,20 @@ Parámetros:
 
 ```bash
 # Crear la BD
-./bitacora init mi_bitacora.bd
+./bitacora init bitacora.bd
 
 # Agregar algunos registros
-./bitacora add mi_bitacora.bd --nombre "Juan" --emocion feliz --felicidad 90 --energia 85 --sueno 8 --aguacate S
-./bitacora add mi_bitacora.bd --nombre "Maria" --emocion triste --felicidad 40 --energia 55 --sueno 6 --aguacate N
+./bitacora add bitacora.bd --nombre "Santiago" --emocion feliz --felicidad 90 --energia 85 --sueno 8 --aguacate S
+./bitacora add bitacora.bd --nombre "Chaustre" --emocion triste --felicidad 40 --energia 55 --sueno 6 --aguacate N
 
 # Ver todos
-./bitacora list mi_bitacora.bd
+./bitacora list bitacora.bd
 
 # Buscar uno específico
-./bitacora find mi_bitacora.bd --nombre "Juan"
+./bitacora find bitacora.bd --nombre "Juan"
 
 # Ver estadísticas
-./bitacora stats mi_bitacora.bd --k 2
+./bitacora stats bitacora.bd --k 2
 ```
 
 ---
@@ -93,12 +93,12 @@ Parámetros:
 ./bitacora init test.bd                    # Ya existe
 
 # Add (válido e inválido)
-./bitacora add test.bd --nombre "Pedro" --emocion feliz --felicidad 80 --energia 70 --sueno 7 --aguacate S
+./bitacora add test.bd --nombre "Pablo" --emocion feliz --felicidad 80 --energia 70 --sueno 7 --aguacate S
 ./bitacora add test.bd --nombre "Ana" --emocion contento --felicidad 80 --energia 70 --sueno 7 --aguacate N  # Error
 
 # List, Find, Stats
 ./bitacora list test.bd
-./bitacora find test.bd --nombre "Pedro"
+./bitacora find test.bd --nombre "Pablo"
 ./bitacora stats test.bd --k 3
 ```
 
